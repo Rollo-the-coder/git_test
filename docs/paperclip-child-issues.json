@@ -1,0 +1,65 @@
+[
+  {
+    "identifier": "WEBA-2",
+    "title": "Launch founding engineer hiring pipeline",
+    "assignee": "CEO",
+    "priority": "high",
+    "parent": "WEBA-1",
+    "blockedBy": [],
+    "blocks": ["WEBA-3", "WEBA-4", "WEBA-5", "WEBA-6"],
+    "description": "Execute the sourcing plan in docs/hiring-plan.md: publish the job posting, send 10 network intros, and open the interview pipeline.",
+    "acceptanceCriteria": [
+      "Job posting live on at least one channel",
+      "10 targeted intro messages sent with tracking in docs/hiring/pipeline-tracker.md",
+      "Interview stages configured with calendar links",
+      "Work sample brief shared with pipeline doc link"
+    ],
+    "artifacts": [
+      "docs/job-posting.md",
+      "docs/hiring/outreach-templates.md",
+      "docs/hiring/pipeline-tracker.md"
+    ]
+  },
+  {
+    "identifier": "WEBA-3",
+    "title": "Bootstrap dev environment for new engineers",
+    "assignee": "Founding Engineer",
+    "priority": "high",
+    "parent": "WEBA-1",
+    "blockedBy": ["WEBA-2"],
+    "description": "New engineers clone the repo and reach a running app in under 15 minutes.",
+    "acceptanceCriteria": [
+      "docs/dev-setup.md exists with step-by-step instructions",
+      "Fresh clone verified on a clean machine or container",
+      ".env.example documents required environment variables"
+    ]
+  },
+  {
+    "identifier": "WEBA-4",
+    "title": "Add CI pipeline for pull requests",
+    "assignee": "Founding Engineer",
+    "priority": "high",
+    "parent": "WEBA-1",
+    "blockedBy": ["WEBA-2"],
+    "description": "Every PR to master runs automated checks before merge.",
+    "acceptanceCriteria": [
+      "GitHub Actions workflow on pull_request and push to master",
+      "Lint and test stages defined",
+      "Branch protection requires passing CI before merge"
+    ]
+  },
+  {
+    "identifier": "WEBA-5",
+    "title": "Write product spec v0",
+    "assignee": "CEO",
+    "priority": "high",
+    "parent": "WEBA-1",
+    "blockedBy": [],
+    "description": "One-page product spec: problem, target user, MVP scope, and explicit non-goals.",
+    "acceptanceCriteria": [
+      "docs/product-spec-v0.md exists",
+      "Sections: Problem, User, MVP scope, Non-goals, Success metrics",
+      "CEO sign-off recorded in issue comment"
+    ]
+  }
+]
