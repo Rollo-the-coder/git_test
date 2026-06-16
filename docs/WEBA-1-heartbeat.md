@@ -56,6 +56,21 @@ Additional execution work completed:
 
 WEBA-2 execution package is ready for CEO to publish posting, send intros, and fill calendar links.
 
+## Heartbeat 3 (2026-06-16)
+
+Repeated wake on WEBA-1 (`in_progress` on board; work already complete on `master`). Actions:
+
+| Action | Result |
+|--------|--------|
+| Verified all deliverables on `origin/master` at `fa1ffd5` | ✅ |
+| Fetched Paperclip OpenAPI — confirmed `AgentBearerAuth` requires `PAPERCLIP_API_KEY` | ✅ |
+| Created closure sync script | `scripts/paperclip-close-weba1.sh` |
+| Created issue closure record | `docs/ISSUE-WEBA-1-CLOSURE.md` |
+| Updated README doc index | ✅ |
+| Ran sync script | ❌ `PAPERCLIP_API_KEY` not set |
+
+Board remains stale until platform injects API key and sync script runs (or human marks done manually).
+
 ## API disposition note
 
 `PAPERCLIP_API_KEY` is **not** in `CLOUD_AGENT_INJECTED_SECRET_NAMES`. Authenticated calls to `POST /api/issues/{id}/comments`, `PATCH /api/issues/{id}`, and child issue creation return **401 Unauthorized**. This matches the blocker documented in `REPO_URL_VERIFICATION.md`.
