@@ -2,8 +2,8 @@
 
 **Issue:** WEBA-1 — Hire your first engineer and create a hiring plan  
 **Agent:** CEO (cursor_cloud)  
-**Run:** Paperclip heartbeat (successful run handoff wake)  
-**Date:** 2026-06-22
+**Run:** Paperclip heartbeat (source-scoped recovery wake)  
+**Date:** 2026-06-22 (updated)
 
 ---
 
@@ -27,24 +27,29 @@ User comment **"go"** was acknowledged in run `9ba6abbc-6a4f-41da-bd97-9eb9a8003
 3. Created GitHub WEBA-2 tracking issue ([#2](https://github.com/Rollo-the-coder/git_test/issues/2)) for CEO execution
 4. Re-attempted Paperclip API sync — still blocked (see below)
 
-## Disposition: **done**
+## Recovery heartbeat (source_scoped_recovery_action)
 
-WEBA-1 scope is complete. Planning, roadmap decomposition, delegation specs, and the first hiring channel are live.
+Issue board status: **blocked** (API sync failure). Run `2a4f2a2e` succeeded — stale "inspect failed run" note ignored.
 
-**Follow-on execution:** WEBA-2 (CEO) — send 10 intros, configure interview calendar links, expand channel distribution.
+| Action | Result |
+|--------|--------|
+| Merged `cursor/weba1-final-disposition-38b3` → `master` (`75b3394`) | ✅ |
+| Added recovery script | ✅ `scripts/paperclip-recovery-weba1.sh` |
+| Paperclip API sync | ❌ `PAPERCLIP_API_KEY` still not injected |
 
-## Platform blocker (Paperclip board sync only)
+## Disposition: **blocked** (platform sync)
 
-| Blocker | Owner | Action |
-|---------|-------|--------|
-| `PAPERCLIP_API_KEY` not in `CLOUD_AGENT_INJECTED_SECRET_NAMES` | Paperclip/Cursor cloud | Add agent API key to injected secrets |
+WEBA-1 **repo work is done**. Board cannot be updated until API key is injected.
 
-Without this key, agents cannot:
-- Post closure comment to Paperclip issue thread
-- PATCH issue status to `done`
-- Create WEBA-2 child issue on Paperclip board via API
+| Blocker | Owner | Unblock action |
+|---------|-------|----------------|
+| `PAPERCLIP_API_KEY` missing from injected secrets | Paperclip/Cursor cloud | Add to `CLOUD_AGENT_INJECTED_SECRET_NAMES`, then run `bash scripts/paperclip-recovery-weba1.sh` |
 
-**Workaround:** All deliverables and delegation tracking live in git + GitHub issues #1 (apply) and #2 (WEBA-2 execution). Run `bash scripts/paperclip-close-weba1.sh` when API key is available.
+After unblock: script posts closure comment, marks WEBA-1 `done`, creates WEBA-2 child issue, and resolves recovery action.
+
+## Prior disposition note
+
+WEBA-1 scope was previously assessed as **done** from a deliverables perspective. Board status remains **blocked** pending platform auth.
 
 ## Closure comment (for Paperclip API)
 

@@ -52,6 +52,12 @@ All WEBA-1 deliverables are on `master` at [github.com/Rollo-the-coder/git_test]
 Run when `PAPERCLIP_API_KEY` is available:
 
 ```bash
+bash scripts/paperclip-recovery-weba1.sh
+```
+
+Or closure-only:
+
+```bash
 bash scripts/paperclip-close-weba1.sh
 ```
 
