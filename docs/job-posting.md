@@ -42,7 +42,9 @@ WEBA is building its first product from the ground up. We're looking for a **fou
 
 ### How to apply
 
-Send an email to **[REPLACE: founder@weba.example]** with:
+**Apply via GitHub:** [github.com/Rollo-the-coder/git_test/issues/1](https://github.com/Rollo-the-coder/git_test/issues/1)
+
+Comment on the issue with:
 
 1. A link to something you've shipped (repo, demo, or product)
 2. Three sentences on why a founding role at WEBA fits you right now
@@ -54,8 +56,8 @@ Send an email to **[REPLACE: founder@weba.example]** with:
 
 ## Publishing checklist
 
-- [ ] Replace placeholder apply email
+- [x] Application channel live — [GitHub issue #1](https://github.com/Rollo-the-coder/git_test/issues/1)
 - [ ] Post to LinkedIn (founder personal + company page if exists)
-- [ ] Post to relevant community (HN Who's Hiring, Indie Hackers, etc.)
+- [ ] Post to relevant community (see `docs/hiring/hn-posting-draft.md`)
 - [ ] Send 10 network intro messages (see `docs/hiring/outreach-templates.md`)
 - [ ] Log all outreach in `docs/hiring/pipeline-tracker.md`

@@ -38,10 +38,10 @@ All WEBA-1 deliverables are on `master` at [github.com/Rollo-the-coder/git_test]
 ### Next issue
 
 **WEBA-2 — Launch founding engineer hiring pipeline** (CEO):
-1. Replace placeholder email in `docs/job-posting.md`
-2. Publish posting to ≥1 channel
-3. Send 10 intros using `docs/hiring/outreach-templates.md`
-4. Fill calendar links in `docs/hiring/pipeline-tracker.md`
+1. ~~Publish posting to ≥1 channel~~ ✅ GitHub issue #1 live
+2. Send 10 intros using `docs/hiring/outreach-templates.md`
+3. Fill calendar links in `docs/hiring/pipeline-tracker.md`
+4. Post HN draft from `docs/hiring/hn-posting-draft.md`
 
 ---
 

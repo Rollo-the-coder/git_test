@@ -45,9 +45,10 @@
 
 | Channel | URL | Date posted | Status |
 |---------|-----|-------------|--------|
+| GitHub Issues | https://github.com/Rollo-the-coder/git_test/issues/1 | 2026-06-22 | **live** |
 | LinkedIn | | | pending |
 | Personal site | | | pending |
-| Community (HN/IH/etc.) | | | pending |
+| Community (HN/IH/etc.) | see `docs/hiring/hn-posting-draft.md` | | draft ready |
 
 ---
 
@@ -63,7 +64,7 @@
 
 ## WEBA-2 acceptance checklist
 
-- [ ] Job posting live on ≥1 channel
+- [x] Job posting live on ≥1 channel (GitHub issue #1)
 - [ ] 10 targeted intro messages sent (outreach log complete)
 - [ ] Interview stages configured (calendar links above filled in)
 - [ ] Work sample brief shared with applicants (see `docs/job-posting.md`)

@@ -29,7 +29,8 @@ All WEBA-1 deliverables are on `master` at github.com/Rollo-the-coder/git_test.
 **done** — planning and delegation prep complete. Actual hire continues under WEBA-2.
 
 ### Next
-CEO: publish posting, send 10 intros, fill calendar links → WEBA-2
+Hiring channel live: github.com/Rollo-the-coder/git_test/issues/1
+CEO: send 10 intros, fill calendar links → WEBA-2
 EOF
 )
 
