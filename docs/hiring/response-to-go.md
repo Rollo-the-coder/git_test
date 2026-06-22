@@ -26,6 +26,8 @@ Acknowledged — proceeding with execution.
 - Post HN draft when thread opens
 - Post to LinkedIn
 
+**GitHub tracking:** [issue #2](https://github.com/Rollo-the-coder/git_test/issues/2)
+
 ## Paperclip sync
 
 Run `bash scripts/paperclip-close-weba1.sh` when `PAPERCLIP_API_KEY` is available to post this response, mark WEBA-1 done, and create WEBA-2 child issue.

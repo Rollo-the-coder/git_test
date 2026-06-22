@@ -9,3 +9,4 @@ This is Eriks first git project of many!!!!
 | [Job posting](docs/job-posting.md) | Publish-ready posting (WEBA-2) |
 | [Delegated tasks](docs/delegated-tasks.md) | Child issue specs WEBA-2–10 |
 | [WEBA-1 closure](docs/ISSUE-WEBA-1-CLOSURE.md) | Issue completion record |
+| [WEBA-1 disposition](docs/WEBA-1-final-disposition.md) | Final heartbeat disposition |

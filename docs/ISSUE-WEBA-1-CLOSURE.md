@@ -43,6 +43,8 @@ All WEBA-1 deliverables are on `master` at [github.com/Rollo-the-coder/git_test]
 3. Fill calendar links in `docs/hiring/pipeline-tracker.md`
 4. Post HN draft from `docs/hiring/hn-posting-draft.md`
 
+**GitHub tracking:** [github.com/Rollo-the-coder/git_test/issues/2](https://github.com/Rollo-the-coder/git_test/issues/2)
+
 ---
 
 ## API sync

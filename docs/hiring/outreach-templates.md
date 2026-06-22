@@ -19,7 +19,7 @@ Copy-paste templates for the 10 network intros required by WEBA-2 acceptance cri
 >
 > Two asks:
 > 1. Does anyone come to mind? Happy to make intros warm.
-> 2. If you know senior ICs who might be open, could you forward our posting? [link to job posting]
+> 2. If you know senior ICs who might be open, could you forward our posting? https://github.com/Rollo-the-coder/git_test/issues/1
 >
 > Full role details: `docs/job-posting.md` in our repo.
 >
@@ -37,7 +37,7 @@ Copy-paste templates for the 10 network intros required by WEBA-2 acceptance cri
 >
 > Profile: 3+ years shipping production web software, full-stack comfort, product judgment, remote-friendly.
 >
-> Posting: [link]  
+> Posting: https://github.com/Rollo-the-coder/git_test/issues/1  
 > Repo context: github.com/Rollo-the-coder/git_test
 >
 > Happy to share the hiring plan or jump on a 15-min call if you have someone in mind.
@@ -57,8 +57,8 @@ Copy-paste templates for the 10 network intros required by WEBA-2 acceptance cri
 >
 > Given your work on [specific project/skill], this might be a fit if you're interested in 0→1 ownership with meaningful equity (1–3%, 4-year vest).
 >
-> Role details: [link to job posting]  
-> Hiring plan: `docs/hiring-plan.md`
+> Role details: https://github.com/Rollo-the-coder/git_test/issues/1  
+> Hiring plan: https://github.com/Rollo-the-coder/git_test/blob/master/docs/hiring-plan.md
 >
 > Open to a 30-min intro call this week or next if you're curious — no pressure if timing isn't right.
 >
@@ -79,7 +79,7 @@ Copy-paste templates for the 10 network intros required by WEBA-2 acceptance cri
 >
 > You'll own the MVP end-to-end: architecture, implementation, deploy, and engineering culture. We have a hiring plan, 90-day roadmap, and delegated task backlog ready in the repo.
 >
-> **Apply:** [email] with a link to something you've shipped + 3 sentences on fit.
+> **Apply:** Comment on https://github.com/Rollo-the-coder/git_test/issues/1 with a link to something you've shipped + 3 sentences on fit.
 >
 > Repo: github.com/Rollo-the-coder/git_test  
 > Hiring plan: github.com/Rollo-the-coder/git_test/blob/master/docs/hiring-plan.md
